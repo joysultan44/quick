@@ -1,0 +1,107 @@
+/* common start */
+*{
+        margin: 0;
+        padding: 0;
+}
+body{
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #0f2656;
+}
+/* common end */
+
+        /* header css start */
+        header{
+                border-bottom: 3px solid #F0F2F5;
+                padding-top: 10px 0 7px;
+                
+
+        }
+        .wrapper{
+                overflow: hidden;
+                width: 90%;
+                /* border: 1px solid; */
+                margin: 0 auto;
+
+        
+        }
+        .logo{width: 10%;
+                /* border: 1px solid red; */
+                float: left;
+
+
+        }
+        .logo img{width: 100%;
+
+        }
+        .menu{  width: 50%;
+                /* border: 1px solid red; */
+                float: right;
+
+        }
+        .menu ul{
+                float: right;
+                margin-top: 16px;
+
+
+        }
+        .menu ul li{
+                list-style-type: none;
+                float: left;
+                
+
+        }
+        .menu ul li:last-child a{
+                margin-right: 0;
+        }
+        .menu ul li a{
+                font-size: 19px;
+                color: #081F51;
+                text-decoration: none;
+                margin: 0 25px;
+                display: inline-block;
+                transition: .3s;
+
+                
+
+             
+
+        }
+        .menu ul li a:hover{
+                color:#0D63FF;
+        }
+        /* header css end */
+        /* banner star */
+
+        .banner{ 
+                padding: 50PX 0;
+        }
+        .wrapper2{
+                width: 60%;
+                margin: 0 auto;
+                /* border: 1px solid brown; */
+        }
+        .b_content{ 
+                text-align: center;
+        }
+        .b_content h1{
+                font-size: 50px;
+                margin: 0;
+        }
+        .sky{
+                color: #008aff;
+        }
+        .b_content p{ 
+                line-height: 33px;
+                margin: 30px 0 ;
+        }
+        .b_img{ 
+                width: 75%;
+                /* border: 6px solid blue; */
+                margin: 0 auto;
+        }
+        .b_img img{
+               width: 100%;
+        }
+        /* banner end */
